@@ -33,8 +33,8 @@ class HomePage extends StatelessWidget {
             ElevatedButton(
                 onPressed: (){
                   //for going one page to another page
-                 // Navigator.push(context, MaterialPageRoute(builder: (context)=>NewPage()));
 
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>NewPage()));
 
                   Fluttertoast.showToast(msg: "Why click me ??");
                 },
